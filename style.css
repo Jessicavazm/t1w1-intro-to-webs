@@ -1,7 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 h1{
     color: cornflowerblue;
     background-color: darkgray;
 }
-h1 {
+
+h2 {
     color: red;
+    background-color: rgb(68, 133, 95);
+}
+
+/* article > p {
+    font-size: 25px;
+} */
+
+.article_p {
+    font-size: 1.5em;
+}
+
+#footer_p {
+    color:red ;
+    background-color: darkgray;
+}
+
+li {font-size: 1.5em;
+    background-color: gray;
+}
+li:last-child {
+    background-color: aquamarine;
+}
+
+img {
+    max-width: 100vw;
 }
